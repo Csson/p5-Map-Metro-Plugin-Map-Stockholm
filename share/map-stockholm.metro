@@ -119,6 +119,21 @@ Hägerstensåsen
 Västertorp
 Fruängen
 
+# Tram Spårväg City
+Sergels torg
+Kungsträdgården
+Nybroplan
+Styrmansgatan
+Djurgårdsbron
+Nordiska muséet
+Gröna Lund
+Skansen
+Djurgårdsskolan
+Bellmansro
+Waldemarsudde
+
+--transfers
+T-Centralen|Sergels torg|weight:4
 
 --lines
 10|T10|Blue line
@@ -128,6 +143,7 @@ Fruängen
 17|T17|Green line
 18|T18|Green line
 19|T19|Green line
+7|L7|Spårväg City
 
 
 --segments
@@ -176,7 +192,7 @@ Fruängen
 17,18,19|Slussen|Medborgarplatsen
 17,18,19|Medborgarplatsen|Skanstull
 17,18,19|Skanstull|Gullmarsplan
-17,18,19|Gullmarsplan|Skärmarbrink
+17,18|Gullmarsplan|Skärmarbrink
 17|Skärmarbrink|Hammarbyhöjden
 17|Hammarbyhöjden|Björkhagen
 17|Björkhagen|Kärrtorp
@@ -236,3 +252,14 @@ Fruängen
 14|Telefonplan|Hägerstensåsen
 14|Hägerstensåsen|Västertorp
 14|Västertorp|Fruängen
+
+7|Sergels torg|Kungsträdgården
+7|Kungsträdgården|Nybroplan
+7|Nybroplan|Styrmansgatan
+7|Styrmansgatan|Djurgårdsbron
+7|Djurgårdsbron|Nordiska muséet
+7|Nordiska muséet|Gröna Lund
+7|Gröna Lund|Skansen
+7|Skansen|Djurgårdsskolan
+7|Djurgårdsskolan|Bellmansro
+7|Bellmansro|Waldemarsudde
