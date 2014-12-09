@@ -1,13 +1,39 @@
 # NAME
 
-Map::Metro::For::Stockholm - Short intro
+Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
+
+<div>
+    <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Map-Metro-Stockholm"><img src="https://travis-ci.org/Csson/p5-Map-Metro-Stockholm.svg?branch=master">&nbsp;</a>
+</div>
 
 # SYNOPSIS
 
-    use Dist::Zilla::Plugin::MapMetro::Builder;
+    use Map::Metro;
+    my $graph = Map::Metro->new('Stockholm')->parse;
+
+    my $routing = $graph->routes_for('Universitetet', 'Kista');
+    print $routing->to_text;
 
 # DESCRIPTION
 
-Dist::Zilla::Plugin::MapMetro::Builder is ...
+See [Map::Metro](https://metacpan.org/pod/Map::Metro) for usage information.
 
-# SEE ALSO
+# Status
+
+Per 2014-dec-10 it contains:
+
+- All seven subway lines ([wikipedia](https://en.wikipedia.org/wiki/Stockholm_metro))
+- The 'Spårväg City' tram line ([wikipedia](https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City))
+
+# AUTHOR
+
+Erik Carlsson <info@code301.com>
+
+# COPYRIGHT
+
+Copyright 2014 - Erik Carlsson
+
+# LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
