@@ -1,6 +1,6 @@
 use strict;
 use Test::More;
-use Map::Metro::For::Stockholm;
+use Map::Metro::Plugin::Map::Stockholm;
 
 ok 1;
 

@@ -46,7 +46,6 @@
       },
       "test" : {
          "requires" : {
-            "Map::Metro::For::Stockholm" : "0",
             "Test::More" : "0",
             "strict" : "0"
          }
