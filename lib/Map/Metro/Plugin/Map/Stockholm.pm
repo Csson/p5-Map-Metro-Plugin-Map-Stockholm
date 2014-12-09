@@ -9,7 +9,7 @@ role Map::Metro::Plugin::Map::Stockholm using Moose with MooseX::Object::Pluggab
     has stockholm => (
         is => 'ro',
         isa => AbsFile,
-        default => sub { path(dist_dir('Map-Metro-Plugin::Map-Stockholm'))->child('map-stockholm.metro')->absolute },
+        default => sub { path(dist_dir('Map-Metro-Plugin-Map-Stockholm'))->child('map-stockholm.metro')->absolute },
     );
 
 }
