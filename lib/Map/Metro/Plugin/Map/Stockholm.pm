@@ -11,7 +11,6 @@ role Map::Metro::Plugin::Map::Stockholm using Moose with MooseX::Object::Pluggab
         isa => AbsFile,
         default => sub { path(dist_dir('Map-Metro-Plugin-Map-Stockholm'))->child('map-stockholm.metro')->absolute },
     );
-
 }
 
 1;
