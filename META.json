@@ -24,11 +24,6 @@
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Test::NoTabs" : "0"
-         }
-      },
       "configure" : {
          "requires" : {
             "Module::Build::Tiny" : "0.039"
