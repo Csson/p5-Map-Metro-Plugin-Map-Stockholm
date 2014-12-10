@@ -41,6 +41,11 @@
             "Map::Metro" : "0",
             "perl" : "5.020000"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Test::NoTabs" : "0"
+         }
       }
    },
    "release_status" : "stable",
