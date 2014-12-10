@@ -38,16 +38,13 @@
       },
       "runtime" : {
          "requires" : {
-            "File::ShareDir" : "0",
-            "Map::Metro::Standard::Moops" : "0",
-            "Path::Tiny" : "0",
-            "Types::Path::Tiny" : "0"
+            "Map::Metro" : "0",
+            "perl" : "5.020000"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0",
-            "strict" : "0"
+            "Test::NoTabs" : "0"
          }
       }
    },
