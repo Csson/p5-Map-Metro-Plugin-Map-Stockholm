@@ -4,18 +4,24 @@ Revision history for Map-Metro-Plugin-Map-Stockholm
  [API Changes]
 
  [Bug Fixes]
+ - Required wrong version of Map::Metro
 
  [Documentation]
- - Minimize description so that the Map::Metro documentation is canonical.
 
  [Enhancements]
- - Adapted to new Map::Metro api (do bumped requirement to 1.6000).
 
  [Meta]
 
  [New Features]
 
  [Revision]
+
+0.1961 2014-12-12T02:33:40Z CET
+ [Documentation]
+ - Minimize description so that the Map::Metro documentation is canonical.
+
+ [Enhancements]
+ - Adapted to new Map::Metro api (do bumped requirement to 0.6000).
 
 0.1960 2014-12-11T15:40:51Z CET
  [Enhancements]
