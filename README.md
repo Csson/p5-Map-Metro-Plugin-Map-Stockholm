@@ -3,16 +3,13 @@
 Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
 
 <div>
-    <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Map-Metro-Stockholm"><img src="https://travis-ci.org/Csson/p5-Map-Metro-Stockholm.svg?branch=master">&nbsp;</a>
+    <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm"><img src="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm.svg?branch=master">&nbsp;</a>
 </div>
 
 # SYNOPSIS
 
     use Map::Metro;
     my $graph = Map::Metro->new('Stockholm')->parse;
-
-    my $routing = $graph->routes_for('Universitetet', 'Kista');
-    print $routing->to_text;
 
 # DESCRIPTION
 
