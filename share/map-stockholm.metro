@@ -261,5 +261,7 @@ T-Centralen|Sergels torg|weight:4
 7|Nordiska muséet|Gröna Lund
 7|Gröna Lund|Skansen
 7|Skansen|Djurgårdsskolan
-7|Djurgårdsskolan|Bellmansro
-7|Bellmansro|Waldemarsudde
+
+7|Djurgårdsskolan|Waldemarsudde|dir:->
+7|Waldemarsudde|Bellmansro|dir:->
+7|Bellmansro|Djurgårdsskolan|dir:->
