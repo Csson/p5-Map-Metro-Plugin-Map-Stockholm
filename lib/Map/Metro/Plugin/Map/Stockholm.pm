@@ -1,15 +1,20 @@
-use 5.20.0;
+use 5.14.0;
 
-package Map::Metro::Plugin::Map::Stockholm {
+package Map::Metro::Plugin::Map::Stockholm;
 
-    use Moose;
-    use File::ShareDir 'dist_dir';
-    use Path::Tiny;
-    with 'Map::Metro::Plugin::Map';
+# VERSION
 
-    has '+mapfile' => (
-        default => sub { path(dist_dir('Map-Metro-Plugin-Map-Stockholm'))->child('map-stockholm.metro')->absolute },
-    );
+use Moose;
+with 'Map::Metro::Plugin::Map';
+
+has '+mapfile' => (
+    default => 'map-stockholm.metro',
+);
+sub map_version {
+    return $VERSION;
+}
+sub map_package {
+    return __PACKAGE__;
 }
 
 1;
@@ -35,15 +40,11 @@ See L<Map::Metro> for usage information.
 
 =head1 Status
 
-Per 2014-dec-10 it contains:
+Per 2014-dec-30 it contains:
 
-=over 4
+* All seven subway lines (L<wikipedia|https://en.wikipedia.org/wiki/Stockholm_metro>)
 
-=item All seven subway lines (L<wikipedia|https://en.wikipedia.org/wiki/Stockholm_metro>)
-
-=item The 'Spårväg City' tram line (L<wikipedia|https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City>)
-
-=back
+* The 'Spårväg City' tram line (L<wikipedia|https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City>)
 
 =head1 AUTHOR
 

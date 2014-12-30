@@ -8,14 +8,22 @@ Revision history for Map-Metro-Plugin-Map-Stockholm
  [Documentation]
 
  [Enhancements]
- - Adapted to new improved one-way segment syntax. (Bumps Map::Metro req to 0.1800)
- - Renamed Vreten to Solna strand (Vreten kept as a search name)
+ - Adapted to Map::Metro 0.1900 map api.
 
  [Meta]
+ - Bumped required Map::Metro to 0.1900.
+ - Moose::Role is a prereq.
+ - Lowered required Perl version to 5.14.
 
  [New Features]
 
  [Revision]
+
+0.1965 2014-12-13T19:14:34Z CET
+ [Enhancements]
+ - Adapted to new improved one-way segment syntax. (Bumps Map::Metro req to
+   0.1800)
+ - Renamed Vreten to Solna strand (Vreten kept as a search name)
 
 0.1964 2014-12-13T02:17:59Z CET
  [Enhancements]
