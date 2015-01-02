@@ -136,14 +136,14 @@ Waldemarsudde
 T-Centralen|Sergels torg|weight:4
 
 --lines
-10|T10|Blue line
-11|T11|Blue line
-13|T13|Red line
-14|T14|Red line
-17|T17|Green line
-18|T18|Green line
-19|T19|Green line
-7|L7|Spårväg City
+10|T10|Blue line|color:#1c388c
+11|T11|Blue line|color:#1c388c
+13|T13|Red line|color:#f15e25
+14|T14|Red line|color:#f15e25
+17|T17|Green line|color:#79c142
+18|T18|Green line|color:#79c142
+19|T19|Green line|color:#79c142
+7|L7|Spårväg City|color:#00bfff
 
 
 --segments

@@ -38,7 +38,7 @@ Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
 
 See L<Map::Metro> for usage information.
 
-=head1 Status
+=head1 STATUS
 
 Per 2014-dec-30 it contains:
 
