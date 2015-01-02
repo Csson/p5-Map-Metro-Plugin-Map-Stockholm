@@ -15,7 +15,7 @@ Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
 
 See [Map::Metro](https://metacpan.org/pod/Map::Metro) for usage information.
 
-# Status
+# STATUS
 
 Per 2014-dec-30 it contains:
 
@@ -23,15 +23,10 @@ Per 2014-dec-30 it contains:
 
 \* The 'Spårväg City' tram line ([wikipedia](https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City))
 
-# AUTHOR
+# POD ERRORS
 
-Erik Carlsson <info@code301.com>
+Hey! **The above document had some coding errors, which are explained below:**
 
-# COPYRIGHT
+- Around line 32:
 
-Copyright 2014 - Erik Carlsson
-
-# LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+    '=end' without a target? (Should be "=end HTML")
