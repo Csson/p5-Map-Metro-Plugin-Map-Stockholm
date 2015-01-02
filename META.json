@@ -38,7 +38,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Map::Metro" : "0.1900",
+            "Map::Metro" : "0.2000",
             "Moose::Role" : "2.0000",
             "perl" : "5.014000"
          }
@@ -50,6 +50,6 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.2000"
+   "version" : "0.1967"
 }
 
