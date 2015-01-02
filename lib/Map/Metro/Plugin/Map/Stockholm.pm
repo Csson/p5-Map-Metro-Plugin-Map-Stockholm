@@ -46,6 +46,12 @@ Per 2014-dec-30 it contains:
 
 * The 'Spårväg City' tram line (L<wikipedia|https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City>)
 
+=begin HTML
+
+<p><img src="http://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png" style="max-width: 600px" /></p>
+
+=end
+
 =head1 AUTHOR
 
 Erik Carlsson E<lt>info@code301.comE<gt>
