@@ -132,18 +132,53 @@ Djurgårdsskolan
 Bellmansro
 Waldemarsudde
 
+# Tram Nockebybanan
+Nockeby
+Nockeby torg
+Olovslund
+Höglandstorget
+Ålstens gård
+Ålstensgatan
+Smedslätten
+Klövervägen
+Alléparken
+
+# Tram Tvärbanan
+Solna station
+Solna Business Park
+Bällsta bro
+Karlsbodavägen
+Norra Ulvsunda
+Johannesfred
+Alviks strand
+Stora Essingen
+Gröndal
+Trekanten
+Årstadal
+Årstaberg
+Årstafältet
+Valla torg
+Linde
+Mårtensdal
+Luma
+Sickla kaj
+Sickla udde
+
 --transfers
 T-Centralen|Sergels torg|weight:4
 
 --lines
-10|T10|Blue line|color:#1c388c
-11|T11|Blue line|color:#1c388c
-13|T13|Red line|color:#f15e25
-14|T14|Red line|color:#f15e25
-17|T17|Green line|color:#79c142
-18|T18|Green line|color:#79c142
-19|T19|Green line|color:#79c142
-7|L7|Spårväg City|color:#00bfff
+10|T10|Blue line|color:#1c388c,width:6
+11|T11|Blue line|color:#1c388c,width:6
+13|T13|Red line|color:#f15e25,width:6
+14|T14|Red line|color:#f15e25,width:6
+17|T17|Green line|color:#79c142,width:6
+18|T18|Green line|color:#79c142,width:6
+19|T19|Green line|color:#79c142,width:6
+7|L7|Spårväg City|color:#00bfff,width:4
+12|L12|Nockebybanan|color:#bbbbbb,width:4
+22a|L22|Tvärbanan|color:#888888,width:4
+22b|L22|Tvärbanan|color:#888888,width:4
 
 
 --segments
@@ -265,3 +300,39 @@ T-Centralen|Sergels torg|weight:4
 7->|Djurgårdsskolan|Waldemarsudde
 7->|Waldemarsudde|Bellmansro
 7->|Bellmansro|Djurgårdsskolan
+
+12|Nockeby|Nockeby torg
+12|Nockeby torg|Olovslund
+12|Olovslund|Höglandstorget
+12|Höglandstorget|Ålstens gård
+12|Ålstens gård|Ålstensgatan
+12|Ålstensgatan|Smedslätten
+12|Smedslätten|Klövervägen
+12|Klövervägen|Alléparken
+12|Alléparken|Alvik
+
+22a|Solna station|Solna centrum
+22a|Solna centrum|Solna Business Park
+22a|Solna Business Park|Sundbybergs centrum
+22a|Sundbybergs centrum|Bällsta bro
+22a|Bällsta bro|Karlsbodavägen
+22a|Karlsbodavägen|Norra Ulvsunda
+22a|Norra Ulvsunda|Johannesfred
+22a|Johannesfred|Alvik
+
+22b|Alvik|Alviks strand
+22b|Alviks strand|Stora Essingen
+22b|Stora Essingen|Gröndal
+22b|Gröndal|Trekanten
+22b|Trekanten|Liljeholmen
+22b|Liljeholmen|Årstadal
+22b|Årstadal|Årstaberg
+22b|Årstaberg|Årstafältet
+22b|Årstafältet|Valla torg
+22b|Valla torg|Linde
+22b|Linde|Globen
+22b|Globen|Gullmarsplan
+22b|Gullmarsplan|Mårtensdal
+22b|Mårtensdal|Luma
+22b|Luma|Sickla kaj
+22b|Sickla kaj|Sickla udde
