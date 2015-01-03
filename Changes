@@ -4,17 +4,21 @@ Revision history for Map-Metro-Plugin-Map-Stockholm
  [API Changes]
 
  [Bug Fixes]
+ - The green lines had skipped Fridhemsplan.
 
  [Documentation]
 
  [Enhancements]
- - Added Nockebybanan and Tvärbanan tram lines.
 
  [Meta]
 
  [New Features]
 
  [Revision]
+
+0.1968 2015-01-03T11:56:29Z CET
+ [Enhancements]
+ - Added Nockebybanan and Tvärbanan tram lines.
 
 0.1967 2015-01-03T00:06:59Z CET
  [Enhancements]
