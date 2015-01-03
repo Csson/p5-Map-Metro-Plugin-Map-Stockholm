@@ -17,11 +17,15 @@ See [Map::Metro](https://metacpan.org/pod/Map::Metro) for usage information.
 
 # STATUS
 
-Per 2014-dec-30 it contains:
+As of 2015-jan-03 it contains:
 
 \* All seven subway lines ([wikipedia](https://en.wikipedia.org/wiki/Stockholm_metro))
 
-\* The 'Spårväg City' tram line ([wikipedia](https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City))
+\* The _Spårväg City_ tram line ([wikipedia](https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City))
+
+\* The _Tvärbanan_ tram line ([wikipedia](https://en.wikipedia.org/wiki/Nockebybanan))
+
+\* The _Nockebybanan_ tram line ([wikipedia](https://en.wikipedia.org/wiki/Tv%C3%A4rbanan))
 
 # AUTHOR
 
