@@ -48,7 +48,7 @@ Per 2014-dec-30 it contains:
 
 =begin HTML
 
-<p><img src="http://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png" style="max-width: 600px" /></p>
+<p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png" style="max-width: 600px" /></a></p>
 
 =end HTML
 
