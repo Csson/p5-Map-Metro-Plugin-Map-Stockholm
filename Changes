@@ -8,15 +8,21 @@ Revision history for Map-Metro-Plugin-Map-Stockholm
  [Documentation]
 
  [Enhancements]
+ - Added Nockebybanan and Tvärbanan tram lines.
+
+ [Meta]
+
+ [New Features]
+
+ [Revision]
+
+0.1967 2015-01-03T00:06:59Z CET
+ [Enhancements]
  - Added colors to the lines
  - Includes graphviz generated image of the network
 
  [Meta]
  - Bumped Map::Metro requirement to 0.2000.
-
- [New Features]
-
- [Revision]
 
 0.1966 2014-12-30T22:33:31Z CET
  [Enhancements]
