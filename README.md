@@ -13,7 +13,7 @@ Version 0.1970, released 2015-01-23.
 
 Or:
 
-        $ map-metro.pl route Stockholm Akalla Medborgarplatsen
+    $ map-metro.pl route Stockholm Akalla Medborgarplatsen
 
 # DESCRIPTION
 
