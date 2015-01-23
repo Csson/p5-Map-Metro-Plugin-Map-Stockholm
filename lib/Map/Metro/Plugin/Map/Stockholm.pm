@@ -3,6 +3,7 @@ use 5.14.0;
 package Map::Metro::Plugin::Map::Stockholm;
 
 # VERSION
+# ABSTRACT: Map::Metro map for Stockholm
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
@@ -23,16 +24,14 @@ __END__
 
 =encoding utf-8
 
-=head1 NAME
-
-Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
-
-=for html <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm"><img src="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm.svg?branch=master">&nbsp;</a>
-
 =head1 SYNOPSIS
 
     use Map::Metro;
     my $graph = Map::Metro->new('Stockholm')->parse;
+
+Or:
+
+    $ map-metro.pl route Stockholm Akalla Medborgarplatsen
 
 =head1 DESCRIPTION
 
@@ -40,33 +39,16 @@ See L<Map::Metro> for usage information.
 
 =head1 STATUS
 
-As of 2015-jan-03 it contains:
+This map L<contains|Map::Metro::Plugin::Map::Stockholm>:
 
-* All seven subway lines (L<wikipedia|https://en.wikipedia.org/wiki/Stockholm_metro>)
+* All seven subway lines [L<wikipedia|https://en.wikipedia.org/wiki/Stockholm_metro>]
 
-* The I<Spårväg City> tram line (L<wikipedia|https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City>)
+* The I<Spårväg City> tram line [L<wikipedia|https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City>]
 
-* The I<Tvärbanan> tram line (L<wikipedia|https://en.wikipedia.org/wiki/Nockebybanan>)
+* The I<Tvärbanan> tram line [L<wikipedia|https://en.wikipedia.org/wiki/Nockebybanan>]
 
-* The I<Nockebybanan> tram line (L<wikipedia|https://en.wikipedia.org/wiki/Tv%C3%A4rbanan>)
+* The I<Nockebybanan> tram line [L<wikipedia|https://en.wikipedia.org/wiki/Tv%C3%A4rbanan>]
 
-=begin HTML
-
-<p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png" style="max-width: 600px" /></a></p>
-
-=end HTML
-
-=head1 AUTHOR
-
-Erik Carlsson E<lt>info@code301.comE<gt>
-
-=head1 COPYRIGHT
-
-Copyright 2014 - Erik Carlsson
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+=for HTML <p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png" style="max-width: 600px" /></a></p>
 
 =cut
