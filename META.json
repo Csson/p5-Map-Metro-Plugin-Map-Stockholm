@@ -4,7 +4,7 @@
       "Erik Carlsson <info@code301.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -31,8 +31,6 @@
       },
       "develop" : {
          "requires" : {
-            "Test::More" : "0",
-            "Test::NoTabs" : "0",
             "Test::Pod" : "1.41"
          }
       },
@@ -49,7 +47,24 @@
          }
       }
    },
+   "provides" : {
+      "Map::Metro::Plugin::Map::Stockholm" : {
+         "file" : "lib/Map/Metro/Plugin/Map/Stockholm.pm",
+         "version" : "0.1970"
+      }
+   },
    "release_status" : "stable",
-   "version" : "0.1969"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Map-Metro-Plugin-Map-Stockholm",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm.git",
+         "web" : "https://github.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm"
+      }
+   },
+   "version" : "0.1970"
 }
 
