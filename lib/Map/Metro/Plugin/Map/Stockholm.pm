@@ -1,4 +1,4 @@
-use 5.14.0;
+use 5.16.0;
 
 package Map::Metro::Plugin::Map::Stockholm;
 

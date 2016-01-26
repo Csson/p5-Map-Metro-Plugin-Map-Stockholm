@@ -13,7 +13,15 @@ Revision history for Map-Metro-Plugin-Map-Stockholm
 
  [New Features]
 
- [Revision]
+ [Other Changes]
+  - Rebuilt with current dzil plugins in Dist::Iller::Config::Author::CSSON(::MapMetro).
+  - Be consistent with required Perl version.
+
+0.1970 2015-01-23T18:03:21Z CET
+ [Documentation]
+ - Improved visualization.
+ - Added detailed line documentation.
+ - Rebuilt with Podweaver.
 
 0.1969 2015-01-03T13:28:09Z CET
  [Bug Fixes]
