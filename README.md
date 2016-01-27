@@ -6,7 +6,7 @@ Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
 
 # VERSION
 
-Version 0.1971, released 2016-01-26.
+Version 0.1971, released 2016-01-27.
 
 # SYNOPSIS
 
