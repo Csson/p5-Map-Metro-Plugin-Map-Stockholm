@@ -4,7 +4,7 @@ package Map::Metro::Plugin::Map::Stockholm;
 
 # ABSTRACT: Map::Metro map for Stockholm
 # AUTHORITY
-our $VERSION = '0.1972';
+our $VERSION = '0.1973';
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
