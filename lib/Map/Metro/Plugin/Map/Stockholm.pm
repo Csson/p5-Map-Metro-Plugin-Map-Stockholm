@@ -2,8 +2,9 @@ use 5.16.0;
 
 package Map::Metro::Plugin::Map::Stockholm;
 
-# VERSION
 # ABSTRACT: Map::Metro map for Stockholm
+# AUTHORITY
+our $VERSION = '0.1972';
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
