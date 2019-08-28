@@ -41,6 +41,8 @@ This map [contains](https://metacpan.org/pod/Map::Metro::Plugin::Map::Stockholm)
 
 \* The _Nockebybanan_ tram line \[[wikipedia](https://en.wikipedia.org/wiki/Tv%C3%A4rbanan)\]
 
+\* The _Lidingöbanan_ tram line \[[wikipedia](https://en.wikipedia.org/wiki/Liding%C3%B6banan)\]
+
 # SOURCE
 
 [https://github.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm](https://github.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm)
