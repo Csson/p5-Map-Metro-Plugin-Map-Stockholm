@@ -50,6 +50,8 @@ This map L<contains|Map::Metro::Plugin::Map::Stockholm>:
 
 * The I<Nockebybanan> tram line [L<wikipedia|https://en.wikipedia.org/wiki/Tv%C3%A4rbanan>]
 
+* The I<Lidingöbanan> tram line [L<wikipedia|https://en.wikipedia.org/wiki/Liding%C3%B6banan>]
+
 =for HTML <p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Plugin-Map-Stockholm/master/static/images/stockholm.png" style="max-width: 600px" /></a></p>
 
 =cut
