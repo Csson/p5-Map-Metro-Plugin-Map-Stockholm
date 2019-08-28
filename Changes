@@ -17,7 +17,8 @@ Revision history for Map-Metro-Plugin-Map-Stockholm
 
  [Stats & Dependency Changes]
 
- [Testing]
+ [Map]
+ - Added the Lidingöbanan tram line (line L21) (it's just not shown in the graph yet)
 
 0.1972 2018-09-30T10:02:19Z UTC
  [Map]
